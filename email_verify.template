@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>⚙️ 验证码通知 | Apocalypse Flyleague</title>
+</head>
+<body style="margin:0; padding:0; font-family:'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; background-color:#f4f7f6; color:#1d1d1f;">
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr><td align="center" style="padding:40px 0;">
+
+      <table width="700" cellpadding="0" cellspacing="0" border="0" style="background-color:#ffffff; border-radius:20px; box-shadow:0 4px 16px rgba(0,0,0,0.08); overflow:hidden;">
+        
+        <!-- Header -->
+        <tr>
+          <td align="center" style="background:linear-gradient(135deg,#06C755,#3fc07b); color:#ffffff; padding:30px 0; font-size:26px; font-weight:700;">
+            Apocalypse Flyleague ✈️<br>
+            <span style="font-size:16px; opacity:0.9;">安全中心 · 邮箱验证码</span>
+          </td>
+        </tr>
+
+        <!-- Content -->
+        <tr>
+          <td style="padding:40px 60px; font-size:16px; line-height:1.75;">
+            <p>尊敬的 <strong>{{.Cid}}</strong>: </p>
+            <p>您好, </p>
+
+
+            <p>您的邮箱验证码是</p>
+            <div style="margin:30px 0; padding:20px; border-radius:12px; background-color:#f0fdf4; border:1px solid #b7ebc4;">
+            <!-- <p style="margin:0; font-weight:600; color:#057c3b;">: </p> -->
+                <p style="margin-top:8px;"><strong style="font-size: 150%;font-weight:500%;">{{.Code}}</strong></p>
+            </div>
+            <p>有效期 {{.Expired}} 分钟, 请尽快使用请不要告诉其他人! </p>
+
+            <a href="mailto:support@apocfly.com" style="color:#007aff; text-decoration:none;">support@apocfly.com</a>
+            
+            <br>
+
+            <p>此致敬礼，<br>
+            Apocalypse Flyleague · 行政中心</p>
+          </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+          <td align="center" style="background-color:#f9fafb; padding:20px; font-size:13px; color:#86868b;">
+            ⚙️ 此邮件由系统自动发送，请勿直接回复<br>
+            © 2025 Apocalypse Flyleague. All rights reserved.
+          </td>
+        </tr>
+
+      </table>
+
+    </td></tr>
+  </table>
+
+</body>
+</html>

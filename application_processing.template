@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>⏳ 选择面试时间通知 | Apocalypse Flyleague</title>
+</head>
+<body style="margin:0; padding:0; font-family:'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; background-color:#f4f7f6;">
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr><td align="center" style="padding:40px 0;">
+
+      <table width="700" style="background:#fff; border-radius:20px; box-shadow:0 4px 16px rgba(0,0,0,0.08); overflow:hidden;">
+
+        <tr>
+          <td align="center" style="background:linear-gradient(135deg,#06c766,#0300a6); color:#fff; padding:30px; font-size:26px; font-weight:700;">
+            Apocalypse Flyleague ⏳<br>
+            <span style="font-size:16px; opacity:0.9;">空管中心 · 面试预约</span>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:40px 60px; font-size:16px; line-height:1.75;">
+            <p>尊敬的 <strong>{{.Cid}}</strong>: </p>
+            <p>您好, </p>
+            <p>您的管制员申请正在 <strong>处理中</strong>。接下来我们需要您在以下的时间段中选择其一：</p>
+            <div style="margin:30px 0; padding:20px; border-radius:12px; background-color:#f4f8ff; border:1px solid #c3dafd;">
+              <p style="margin:0; font-weight:600; color:#1a73e8;">📝 可用时间段：</p>
+              <p style="margin-top:8px;">{{.Time}}</p>
+            </div>
+
+            <p>请将回复邮件发送至：<a href="mailto:1436001938@qq.com" style="color:#06C755;">1436001938@qq.com</a></p><br>
+            <p>感谢您的耐心等待，<br>Apocalypse Flyleague · 空管中心</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="center" style="background:#f9fafb; padding:20px; font-size:13px; color:#86868b;">
+            此邮件由系统自动发送，请勿直接回复<br>
+            © 2025 Apocalypse Flyleague. All rights reserved.
+          </td>
+        </tr>
+
+      </table>
+
+    </td></tr>
+  </table>
+
+</body>
+</html>

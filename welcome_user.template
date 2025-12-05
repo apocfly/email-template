@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>👋 欢迎加入 | Apocalypse Flyleague</title>
+</head>
+<body style="margin:0; padding:0; font-family:'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; background:#f4f7f6;">
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr><td align="center" style="padding:40px 0;">
+
+      <table width="700" style="background:#fff; border-radius:20px; box-shadow:0 4px 16px rgba(0,0,0,0.08); overflow:hidden;">
+
+        <tr>
+          <td align="center" style="background:linear-gradient(135deg,#06C755,#00A64E); color:#fff; padding:30px; font-size:26px; font-weight:700;">
+            Apocalypse Flyleague 💚<br>
+            <span style="font-size:16px; opacity:0.9;">欢迎加入我们！</span>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:40px 60px; font-size:16px; line-height:1.75;">
+            <p>尊敬的 <strong>{{.Cid}}</strong>：</p>
+            <p>欢迎注册 Apocalypse Flyleague！🌍</p>
+            <p>您的账户已成功创建，快来体验我们的飞行与空管世界吧。</p>
+
+            <div style="margin:25px 0; padding:20px; border-radius:12px; background-color:#f0fff8; border:1px solid #bdf5c1;">
+              <p>加入我们的 <a href="https://qm.qq.com/q/YLP6h5TnYA" style="color:#06C755; font-weight:600;">QQ群聊</a>（1062972770），与其他成员一起飞行！</p>
+            </div>
+
+            <p>祝您飞行顺利，天空常蓝 ☁️</p>
+            <p>Apocalypse Flyleague 团队</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="center" style="background:#f9fafb; padding:20px; font-size:13px; color:#86868b;">
+            此邮件由系统自动发送，请勿直接回复<br>
+            © 2025 Apocalypse Flyleague. All rights reserved.
+          </td>
+        </tr>
+
+      </table>
+
+    </td></tr>
+  </table>
+
+</body>
+</html>

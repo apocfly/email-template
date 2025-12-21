@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
   <meta charset="UTF-8">
-  <title>管制员面试通知 | Apocalypse Flyleague</title>
+  <title>活动报名通知 | Apocalypse Flyleague</title>
 </head>
 <body style="margin:0; padding:0; font-family:'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; background-color:#f4f7f6; color:#1d1d1f;">
 
@@ -13,7 +13,7 @@
                 <tr>
           <td align="center" style="background:linear-gradient(135deg,#06C755,#3fc07b); color:#ffffff; padding:30px 0; font-size:26px; font-weight:700;">
             Apocalypse Flyleague<br>
-            <span style="font-size:16px; opacity:0.9;">管制员训练部 · 管制员面试</span>
+            <span style="font-size:16px; opacity:0.9;">组织部 · 活动报名</span>
           </td>
         </tr>
 
@@ -23,17 +23,18 @@
             <p>尊敬的 <strong>{{.Cid}}</strong>: </p>
             <p>您好，</p>
             <br>
-            <p>空管中心已收到您的管制员申请</p>
-            <p>我们将会与您进行一场面试</p>
+            <p>您已作为机组报名"{{.ActivityName}}"联飞活动</p>
             <div style="margin:30px 0; padding:20px; border-radius:12px; background-color:#f0fdf4; border:1px solid #b7ebc4;">
-              <p style="margin:0; font-weight:600; color:#057c3b;">可选的时间段为：</p>
-              <p style="margin-top:8px;">{{.Time}}</p>
+                <p style="margin:0; font-weight:600; color:#057c3b;">详细信息：</p>
+                <p style="margin-top:8px;">您已报名参加"{{.ActivityName}}"联飞活动</p>
+                <p style="margin-top:8px;">活动时间: {{.ActivityTime}}</p>
+                <p style="margin-top:8px;">呼号: {{.Callsign}}</p>
+                <p style="margin-top:8px;">机型: {{.Aircraft}}</p>
             </div>
-            <p>请登录飞控选择时间段并确认面试</p>
-            <p>如有疑问请联系：<a href="mailto:{{.Contact}}" style="color:#06C755;">{{.Contact}}</a></p>
+            <p>祝连飞顺利！</p>
             <br>
             <p>以上，<br>
-            Apocalypse Flyleague · 管制员训练部</p>
+            Apocalypse Flyleague · 组织部</p>
           </td>
         </tr>
 

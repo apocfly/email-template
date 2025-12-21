@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>欢迎加入APOC | Apocalypse Flyleague</title>
+</head>
+<body style="margin:0; padding:0; font-family:'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; background-color:#f4f7f6; color:#1d1d1f;">
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr><td align="center" style="padding:40px 0;">
+
+      <table width="700" cellpadding="0" cellspacing="0" border="0" style="background-color:#ffffff; border-radius:20px; box-shadow:0 4px 16px rgba(0,0,0,0.08); overflow:hidden;">
+        <tr>
+          <td align="center" style="background:linear-gradient(135deg,#06C755,#3fc07b); color:#ffffff; padding:30px 0; font-size:26px; font-weight:700;">
+            Apocalypse Flyleague<br>
+            <span style="font-size:16px; opacity:0.9;">行政中心 · 欢迎加入</span>
+          </td>
+        </tr>
+
+        <!-- Content -->
+        <tr>
+          <td style="padding:40px 60px; font-size:16px; line-height:1.75;">
+            <p>尊敬的 <strong>{{.Cid}}</strong>: </p>
+            <p>您好，</p>
+            <br>
+            <p>🎉🎉🎉欢迎注册本平台, 祝连飞顺利, 管制愉快。🎉🎉🎉</p>
+            <br>
+            <strong>【介绍】</strong><br>
+            本平台是一个以高品质、高水准为标准且以公益为性质的模拟飞行连飞平台。在这里您可以享受：高配置的服务器、高水平的管制服务等。<br>
+            本平台的相关文件、技术源码均已在Github上开源，这意味着各位可以通过我们铺的路，从0开始搭建和我们一样的平台！<br>
+            最后，祝大家飞行、管制愉快！<br>
+            <br>
+            <strong>【相关链接】</strong><br>
+            QQ群聊： <a href="https://qm.qq.com/q/L7ywZCrNWa" target="_blank" rel="noopener noreferrer" style="color:#06C755">1074746258</a> <br>
+            官网： <a href="https://www.apocfly.com" target="_blank" rel="noopener noreferrer" style="color:#06C755;">https://www.apocfly.com</a><br>
+            Swift / EuroScope：fsd.apocfly.com<br>
+            文档站：  <a href="https://docs.apocfly.com" target="_blank" rel="noopener noreferrer" style="color:#06C755;">https://docs.apocfly.com</a><br>
+            模飞资源网盘： <a href="https://file.apocfly.com" target="_blank" rel="noopener noreferrer" style="color:#06C755;">https://file.apocfly.com</a><br>
+            TeamSpeak 语音地址： <a href="ts3server://ts.apocfly.com" target="_blank" rel="noopener noreferrer"></a>ts.apocfly.com<br>
+            Github主页： <a href="https://github.com/apocfly" target="_blank" rel="noopener noreferrer" style="color:#06C755;">https://github.com/apocfly</a><br>
+            Kook邀请链接： <a href="https://kook.vip/DYfAfX" target="_blank" rel="noopener noreferrer" style="color:#06C755;">https://kook.vip/DYfAfX</a><br>
+            Discord邀请链接： <a href="https://discord.gg/sxV48j2qGn" target="_blank" rel="noopener noreferrer" style="color:#06C755;">https://discord.gg/sxV48j2qGn</a><br>
+            APOC请将群名片更改改为：注册ID<br>
+            <br>
+            注：Kook仅为备用，若无特殊通知，一律使用Teamspeak提供管制服务<br>
+            <br>
+            <p>以上，<br>
+            Apocalypse Flyleague · 行政中心</p>
+          </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+          <td align="center" style="background-color:#f9fafb; padding:20px; font-size:13px; color:#86868b;">
+            此邮件由系统自动发送，请勿直接回复<br>
+            © 2025 Apocalypse Flyleague. All rights reserved.
+          </td>
+        </tr>
+
+      </table>
+
+    </td></tr>
+  </table>
+
+</body>
+</html>
